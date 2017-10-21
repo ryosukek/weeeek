@@ -1,14 +1,62 @@
-body {
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #323a45;
+}
+
+a:hover {
+  color: #0dc0c0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  line-height: 65px;
+  background-color: rgba(255,254,255,0.9);
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-logo {
+  width: 124px;
+  margin-top: 10px;
+  float: left;
+}
+
+.header-menu-list {
+  float: right;
+}
+
+.header-menu-list li {
+  float: left;
+}
+
+.header-menu-list a {
+  padding-left: 50px;
+  font-weight: 600;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(./images/top-wrapper-2.jpg);
+  background-image: url(./images/top-wrapper-green.jpg);
   background-size: cover;
   height: 50vh;
   color: white;
