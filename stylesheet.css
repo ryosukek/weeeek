@@ -58,14 +58,14 @@ header {
   padding: 180px 0 100px 0;
   background-image: url(./images/top-wrapper-green.jpg);
   background-size: cover;
-  height: 50vh;
+  height: 35vh;
   color: white;
   opacity: 0.9;
   text-align: center;
 }
 
 .container {
-  width: 1170px;
+  width: 1270px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -79,4 +79,33 @@ header {
 .top-wrapper p {
   opacity: 0.9;
   font-size: 20px;
+}
+
+.portfolio-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding: 30px 0 30px 0;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.portfolio {
+  float: left;
+  width: 25%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5f5d60;
 }
