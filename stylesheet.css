@@ -142,4 +142,40 @@ header {
   float: left;
   width: 75%;
   color: #5f5d60;
+  line-height: 28px;
+}
+
+.language-wrapper {
+  height: 700px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.language-box-wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.language-box {
+  float: left;
+  vertical-align: top;
+  width: calc(100% / 3);
+  padding-top: 40px;
+}
+
+.language-box .icon {
+  margin-bottom: 10px;
+}
+
+.language-box h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #5f5d60;
+  margin-bottom: 10px;
+}
+
+.language-box p {
+  font-size: 14px;
+  color: #5f5d60;
 }
