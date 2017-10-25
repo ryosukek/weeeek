@@ -82,7 +82,7 @@ header {
 }
 
 .portfolio-wrapper {
-  height: 500px;
+  height: 380px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
@@ -107,5 +107,39 @@ header {
   display: inline-block;
   margin-top: 10px;
   font-size: 14px;
+  color: #5f5d60;
+}
+
+.profile-wrapper {
+  height: 380px;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+
+.profile-wrapper h2 {
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.profile-image {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.profile-text {
+  float: left;
+  width: 75%;
   color: #5f5d60;
 }
