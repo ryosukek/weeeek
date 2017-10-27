@@ -235,6 +235,7 @@ header {
   vertical-align: top;
   /*width: calc(100% / 3);*/
   width: 400px;
+  /*width: 100%;*/
   padding-top: 40px;
 }
 
@@ -336,6 +337,7 @@ footer {
 
   .top-wrapper .sp_text {
     display: block;
+    font-size: 14px;
   }
 
   .profile-text {
@@ -346,5 +348,9 @@ footer {
   .profile-text .name {
     display: block;
     text-align: center;
+  }
+
+  .language-box {
+    width: 300px;
   }
 }
